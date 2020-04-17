@@ -1,0 +1,13 @@
+The following files:
+
+clean_species_table_p1.csv
+clean_species_table_p2.csv
+extracted_latent_var_snps_cohort1.ped
+extracted_latent_var_snps_cohort2.ped
+extracted_snp_merge.ped
+latent_var_list_cohort1.txt
+latent_var_list_cohort2.txt
+latent_var_requested_snps_cohort1.csv
+latent_var_requested_snps_cohort2.csv
+
+are read and process in latent_variables.R.  This script is where latent constructs defining the correlation among adjacent SNPs are used to build a structural equation model that outperforms multiple regression.
