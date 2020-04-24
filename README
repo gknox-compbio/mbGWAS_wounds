@@ -1,4 +1,4 @@
-The following files:
+The following files are read and processed in latent_variables.R.  This script is where latent constructs defining the correlation among adjacent SNPs are used to build a structural equation model that outperforms multiple regression.
 
 clean_species_table_p1.csv
 clean_species_table_p2.csv
@@ -10,4 +10,21 @@ latent_var_list_cohort2.txt
 latent_var_requested_snps_cohort1.csv
 latent_var_requested_snps_cohort2.csv
 
-are read and process in latent_variables.R.  This script is where latent constructs defining the correlation among adjacent SNPs are used to build a structural equation model that outperforms multiple regression.
+
+Files used by species_associations_clean script (Figures 1-2)
+- allele_calls_p1.csv/allele_calls_p2.csv
+- clean_species_table_p1.csv/clean_species_table_p2.csv
+- cov3.txt/p2_cov3.txt
+- met1.csv/met2.csv
+
+Used by heal_comp_alpha_clean (Figure 3)
+- Biobank with Wound Heal Dates 12-18-2018.csv
+- cov2.txt/p2_cov2.txt
+- ages_p1_p2.csv
+- met1.csv/met2.csv
+- allele_calls_p1.csv/allele_calls_p2.csv
+
+Used by tln2_qpcr_clean (Figure 4)
+- 20191219_085241_CT039093_TIPTON_TLN2 -  Quantification Cq Results_0.csv
+- 20200116_084916_CT039093_TIPTON_TLN2 -  Quantification Cq Results_0.csv
+- S3_Table.csv
